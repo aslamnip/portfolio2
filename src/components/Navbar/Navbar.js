@@ -17,31 +17,31 @@ function Navbar() {
                 <Container>
                     <div className='navMainDiv'>
                         {/* <h2 className='logoForLg'>Empire of Aslam</h2> */}
-                      <NavLink to = "/"><img className='logoForLg' src ={Logo} alt="" /></NavLink>  
+                      <NavLink to = "portfolio/"><img className='logoForLg' src ={Logo} alt="" /></NavLink>  
 
                         <ul>
                             <li >
-                                <NavLink end to="/" className={({ isActive }) => isActive ? activeWeb : undefined}>
+                                <NavLink end to="portfolio/" className={({ isActive }) => isActive ? activeWeb : undefined}>
                                     <FontAwesomeIcon className='NavIcon' icon={faHome} /> <span className='navText'>Home</span>
                                 </NavLink >
                             </li>
                             <li>
-                                <NavLink to="about" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
+                                <NavLink to="portfolio/about" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
                                     <FontAwesomeIcon className='NavIcon' icon={faUser} /> <span className='navText'>About </span>
                                 </NavLink >
                             </li>
                             <li>
-                                <NavLink to="projects" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
+                                <NavLink to="portfolio/projects" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
                                     <FontAwesomeIcon className='NavIcon' icon={faHandsHelping} /> <span className='navText'>Projects</span>
                                 </NavLink >
                             </li>
                             <li>
-                                <NavLink to="testmonial" className={({ isActive }) => isActive ? "activeWeb" : undefined}> <
+                                <NavLink to="portfolio/testmonial" className={({ isActive }) => isActive ? "activeWeb" : undefined}> <
                                     FontAwesomeIcon className='NavIcon' icon={faFileText} /> <span className='navText'>Testmonial</span>
                                 </NavLink >
                             </li>
                             <li>
-                                <NavLink to="contact" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
+                                <NavLink to="portfolio/contact" className={({ isActive }) => isActive ? "activeWeb" : undefined}>
                                     <FontAwesomeIcon className='NavIcon' icon={faContactBook} /> <span className='navText'>Contact</span>
                                 </NavLink >
                             </li>

@@ -32,16 +32,16 @@ function TopHeader() {
                             <Fade direction='down' duration="500">
                                 <div className=' shortBio'>
                                     <h3><Fade cascade duration="200"> Hello World !!</Fade></h3>
-                              
+
                                     <h6> <Fade cascade duration="100" delay={2000}>Welcome To Virtual Empire  Of Aslam</Fade></h6>
-                                        <p>I&apos;m Aslam , a frontend web developer</p>
-                                        <p>with Javascript & React.</p>
-                                        <p>Problem Solver & Simple web designer,</p>
-                                        <p>UX , UI template designer</p>
-                                 
+                                    <p>I&apos;m Aslam , a frontend web developer</p>
+                                    <p>with Javascript & React.</p>
+                                    <p>Problem Solver & Simple web designer,</p>
+                                    <p>UX , UI template designer</p>
+
 
                                     <div className='div-btnHire'>
-                                   <Link to="/contact">  <button className='btnHire ' type='button'> Hire me</button></Link> 
+                                        <Link to="portfolio/contact">  <button className='btnHire ' type='button'> Hire me</button></Link>
                                     </div>
 
                                 </div>
