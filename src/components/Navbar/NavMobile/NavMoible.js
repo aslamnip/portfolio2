@@ -13,13 +13,13 @@ function NavMoible() {
     return (
         <div>
             <div className='d-flex'>
-                <NavLink to='portfolio/'><img className='logForSm' src={logo} alt="aslam" /></NavLink>
-                <a className='topMailBar' href="mailto:aslam1nip@gmail.com"> <FontAwesomeIcon icon={faEnvelope} /> <br /></a>
+               <NavLink to='/'><img className='logForSm' src={logo} alt="aslam" /></NavLink> 
+              <a className='topMailBar'   href="mailto:aslam1nip@gmail.com"> <FontAwesomeIcon  icon={faEnvelope} /> <br /></a> 
             </div>
             <div className='navForSmall'>
                 <ul>
                     <li>
-                        <NavLink end to="portfolio/" className={({ isActive }) => isActive ? activeClassName : undefined} >
+                        <NavLink end to="/" className={({ isActive }) => isActive ? activeClassName : undefined} >
                             <FontAwesomeIcon className='NavIconSmall' icon={faHome} /> <br />
                             <p className='smNavText'>Home</p>
                             <div className='indi' />
@@ -29,7 +29,7 @@ function NavMoible() {
 
 
                     <li>
-                        <NavLink to="portfolio/about" className={({ isActive }) => isActive ? activeClassName : undefined} >
+                        <NavLink to="about" className={({ isActive }) => isActive ? activeClassName : undefined} >
                             <FontAwesomeIcon className='NavIconSmall' icon={faUser} /> <br />
                             <p className='smNavText'>About</p>
                             <div className='indi' />
@@ -38,7 +38,7 @@ function NavMoible() {
 
                     </li>
                     <li>
-                        <NavLink to="portfolio/projects" className={({ isActive }) => isActive ? activeClassName : undefined}>
+                        <NavLink to="projects" className={({ isActive }) => isActive ? activeClassName : undefined}>
                             <FontAwesomeIcon className='NavIconSmall' icon={faContactBook} /> <br />
                             <p className='smNavText'>Projects</p>
                             <div className='indi' />
@@ -46,7 +46,7 @@ function NavMoible() {
 
                     </li>
                     <li className=''>
-                        <NavLink to="portfolio/testmonial" className={({ isActive }) => isActive ? activeClassName : undefined}>
+                        <NavLink to="testmonial" className={({ isActive }) => isActive ? activeClassName : undefined}>
                             <FontAwesomeIcon className='NavIconSmall' icon={faHandsHelping} /> <br />
                             <p id='testmonial' className='smNavText'>Testmonial</p>
                             <div className='indi' />
@@ -55,7 +55,7 @@ function NavMoible() {
 
                     </li>
                     <li>
-                        <NavLink to="portfolio/contact" className={({ isActive }) => isActive ? activeClassName : undefined}>
+                        <NavLink to="contact" className={({ isActive }) => isActive ? activeClassName : undefined}>
                             <FontAwesomeIcon className='NavIconSmall' icon={faFileText} /> <br />
                             <p className='smNavText'>Contact</p>
                             <div className='indi' />

@@ -139,7 +139,7 @@ function TestmonialComponent() {
 
                 </div>
                 <div className='text-center my-5'>
-                <Link className='text-center' to="portfolio//testmonial">  <button className='buttonProject mt-5' type='button'>See more reviews </button></Link>
+                <Link className='text-center' to="/testmonial">  <button className='buttonProject mt-5' type='button'>See more reviews </button></Link>
                 </div>
                 
 

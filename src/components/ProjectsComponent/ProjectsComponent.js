@@ -108,7 +108,7 @@ function ProjectsComponent(props) {
         </Carousel>
       </div>
       <div className='text-center'>
-        <Link to="portfolio/projects" className="text-center"> <button type='button' className='seeMoreProjBtn '>More Projects</button></Link>
+        <Link to="/projects" className="text-center"> <button type='button' className='seeMoreProjBtn '>More Projects</button></Link>
       </div>
 
 

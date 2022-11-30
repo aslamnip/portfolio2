@@ -14,7 +14,7 @@ function Home() {
             <TopHeader />
             <AlertComponent />
             <AboutComponent About="About me">
-                <NavLink to='portfolio/about'> Know More</NavLink>
+                <NavLink to='about'> Know More</NavLink>
             </AboutComponent>
             <ProjectsComponent project="Projcets Sample" />
             <TestmonialComponent />

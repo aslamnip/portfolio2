@@ -18,11 +18,11 @@ function App() {
       <Navbar />
       <div className='body'>
         <Routes>
-          <Route exact path='/portfolio/' element={<Home />} />
-          <Route exact path='/portfolio/about' element={<AboutPage />} />
-          <Route exact path='/portfolio/projects' element={<ProjectsPage />} />
-          <Route exact path='/portfolio/testmonial' element={<TestmonioalPage />} />
-          <Route exact path='/portfolio/contact' element={<ContactPage />} />
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<AboutPage />} />
+          <Route exact path='/projects' element={<ProjectsPage />} />
+          <Route exact path='/testmonial' element={<TestmonioalPage />} />
+          <Route exact path='/contact' element={<ContactPage />} />
           <Route exact path='*' element={<Error />} />
         </Routes>
       </div>

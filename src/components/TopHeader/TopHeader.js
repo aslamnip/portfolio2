@@ -41,7 +41,7 @@ function TopHeader() {
 
 
                                     <div className='div-btnHire'>
-                                        <Link to="portfolio/contact">  <button className='btnHire ' type='button'> Hire me</button></Link>
+                                        <Link to="/contact">  <button className='btnHire ' type='button'> Hire me</button></Link>
                                     </div>
 
                                 </div>
